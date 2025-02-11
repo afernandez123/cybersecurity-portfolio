@@ -430,3 +430,29 @@ html {
 .project-img:hover {
     transform: scale(1.1);
 }
+
+/* Fix for tooltip bullet point spacing */
+.tooltip ul {
+    padding-left: 15px; /* Ensures consistent left padding */
+    margin: 5px 0; /* Adjusts space above and below */
+    line-height: 1.5; /* Keeps spacing uniform */
+}
+
+/* Specific fix for Splunk tooltip */
+.cert.splunk .tooltip ul {
+    line-height: 1.2; /* Reduce space between bullet points */
+}
+
+/* Fix for tooltip bullet point spacing */
+.tooltip ul {
+    padding-left: 15px; /* Ensures consistent left padding */
+    margin: 5px 0; /* Adjusts space above and below */
+    line-height: 1.5; /* Keeps spacing uniform */
+}
+
+/* Specific fix for Splunk tooltip */
+.cert.splunk .tooltip ul {
+    line-height: 1.4; /* Reduce space between bullet points */
+    padding-left: 20px; /* Adjust indent */
+    text-align: left; /* Ensure left alignment */
+}
