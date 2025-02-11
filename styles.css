@@ -405,3 +405,8 @@ section#contact a:hover {
     visibility: visible;
     opacity: 1;
 }
+
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
