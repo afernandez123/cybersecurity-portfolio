@@ -410,3 +410,23 @@ section#contact a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 153, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-img:hover {
+    transform: scale(1.1);
+}
