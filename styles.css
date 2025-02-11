@@ -120,8 +120,17 @@ footer p {
 }
 
 /* Default tooltip position (above badge) */
-.cert:nth-child(1) .tooltip, .cert:nth-child(2) .tooltip, .cert:nth-child(3) .tooltip {
+.cert:nth-child(1) .tooltip,
+.cert:nth-child(2) .tooltip,
+.cert:nth-child(3) .tooltip {
     bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cert:nth-child(4) .tooltip {
+    top: 110%;
+    bottom: auto;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -140,6 +149,15 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
+}
+
+/* ====== RPA UIPATH ADA Tooltip Fix ====== */
+/* Positions the tooltip BELOW the badge */
+.cert.rpa .tooltip {
+    top: 110%;  /* Moves it below the badge */
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Animated Cybersecurity Background */
