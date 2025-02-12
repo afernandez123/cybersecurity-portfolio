@@ -456,3 +456,26 @@ html {
     padding-left: 20px; /* Adjust indent */
     text-align: left; /* Ensure left alignment */
 }
+
+.profile-container {
+    display: flex;
+    align-items: center; /* Ensures everything is aligned vertically */
+    justify-content: center; /* Centers everything properly */
+    gap: 10px; /* Adds some spacing between the image and text */
+}
+
+.profile-pic {
+    width: 100px; /* Adjusted for better scaling */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ff99;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.8);
+}
+
+.site-title {
+    font-size: 2em; /* Keeps it responsive */
+    font-weight: bold;
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+}
