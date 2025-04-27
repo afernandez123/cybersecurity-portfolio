@@ -1,5 +1,11 @@
 # Cybersecurity Portfolio Website 🌐
 
+[![Field](https://img.shields.io/badge/Field-Cybersecurity-green)]()
+[![Focus](https://img.shields.io/badge/Focus-Projects%20%26%20Hands--On-lightgrey)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+
+---
+
 A simple HTML/CSS website showcasing cybersecurity projects and hands-on practice in Linux, scripting, and incident management.
 
 ## 🌟 Projects Highlighted
